@@ -4,7 +4,7 @@ using namespace std;
 
 Map::Map(bool *MAP, int *VOISINS, int purity) : map(MAP), voisins(VOISINS) {
   cout << "creation" << endl;
-  generateMap();
+  generateMap(purity);
 }
 
 bool *Map::getMap() const { return map; }
@@ -54,7 +54,6 @@ void Map::update() {
 
 void Map::display() {
   bool *map = this->getMap();
-  int *voisins = this->getVoisins();
   cout << endl;
   for (int y = 0; y < HEIGHT; y++) {
     cout << endl;
