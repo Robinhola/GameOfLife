@@ -5,3 +5,6 @@ Game: GameOfLife.cpp Map.cpp
 	
 clean:
 	rm ./Game
+
+run:
+	./Game
