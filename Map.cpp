@@ -59,7 +59,7 @@ void Map::display() {
     cout << endl;
     for (int x = 0; x < LENGHT; x++) {
       if (map[(y)*LENGHT + x])
-        cout << "1";
+        cout << ".";
       else
         cout << " ";
     }

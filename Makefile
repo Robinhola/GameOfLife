@@ -1,4 +1,4 @@
-all: clean Game
+all: clean Game run
 
 Game: GameOfLife.cpp Map.cpp
 	g++ GameOfLife.cpp Map.cpp -o $@ -Wall -Wextra
