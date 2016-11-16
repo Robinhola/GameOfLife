@@ -12,13 +12,20 @@
 ## How to play
 
   In order to build, write in terminal:
-  > make
+  
+    make
+    
   To play, write:
-  > make run
+  
+    make run
+    
   To clean:
-  > make clean
+  
+    make clean
+    
   To clean, build and run:
-  > make all
+  
+    make all
   
 ## Rules
 
