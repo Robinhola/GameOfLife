@@ -3,9 +3,11 @@
 
 #include <iostream>
 
-#define LENGHT 80  // 150
-#define HEIGHT 39  // 45
-#define PURITY 3
+#define LENGTH 80  
+#define HEIGHT 39  	
+#define PURITY 3  // on startup, an average of 1 out of 3 cells becomes alive
+
+// VOISINS means neighbours in French
 
 class Map {
  public:
